@@ -16,6 +16,7 @@ function Memo(props){
                 <Item key={value.message} value={value} index={key + 1} />
             ))
             // setMode('default')
+            
             break;
 
         case 'find':
